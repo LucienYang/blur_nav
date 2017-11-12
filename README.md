@@ -9,6 +9,7 @@
 
 # 导航条动态高斯模糊实现原理
 > 第一步，将页面主体内容clone到navbar中，然后使用css3 -webkit-filter滤镜对内容做高斯模糊
+>
 > 第二部，监听页面滚动事件，计算出scrollTop，将navbar中的内容做同步滚动，同步滚动使用的方法是transform下面的translateY样式，对Y轴做同步偏移
 
 代码片段如下：
