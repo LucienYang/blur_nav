@@ -1,6 +1,6 @@
 还是先看效果图：
 ![静态效果图.png](http://upload-images.jianshu.io/upload_images/1784147-f0bd55fe743512bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![GIF.gif](http://upload-images.jianshu.io/upload_images/1784147-35a333c8ac028ba4.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 页面布局：
 * 顶部高斯模糊导航条
 * 页面主体
