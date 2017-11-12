@@ -27,3 +27,6 @@
 ```
 # 内容图片动态高斯模糊实现原理
 > 鼠标mouseover时候，对img标签加上 -webkit-filter滤镜样式，mouseleave时候再移除掉
+
+---------
+简书链接：[http://www.jianshu.com/p/e65ae2fd8aea](http://www.jianshu.com/p/e65ae2fd8aea)
