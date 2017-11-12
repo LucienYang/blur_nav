@@ -1,0 +1,126 @@
+.container-layout{
+	padding: 0px;
+}
+.content-blurred {
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
+    -webkit-filter:blur(20px);
+    filter:url(#blur-effect);
+    opacity:.55;
+  	z-index: 1;
+}
+#header{
+	width: 100%;
+	height: 80px;
+	overflow:hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #f8f8f8;
+	background-blend-mode: darken;
+    z-index:99;
+    box-shadow:0 1px 0 rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.1);
+}
+.mynavbar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	line-height: 80px;
+	color: #fff;
+	z-index: 101;
+}
+.mynavbar-color{
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+    opacity:0.5;
+　  		filter:alpha(opacity=50);
+	background: #000;
+	z-index: 100;
+}
+.logo{
+	margin-bottom: 15px;
+}
+.navbarlink{
+	overflow: hidden;
+	height: 80px;
+}
+.navbarlink span{
+	height: 80px;
+	padding: 40px 20px;
+	line-height: 80px;
+	font-size: 20px;
+}
+.navbarlink span:hover{
+	background: #000;
+	opacity:0.3;
+　  		filter:alpha(opacity=30);
+}
+.searchPanel{
+	margin-top: 23px;
+	float: right;
+}
+.field-icon-right{
+	color: #111;
+}
+.imgContainerWrapper{
+	height: 287px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.imgContainer-bgcolor{
+	background: #333;
+	background-blend-mode: darken;
+}
+.imgContainer{
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.imgContainer-blurred{
+	width: 120%;
+    height: 120%;
+    margin-left: -10%;
+    margin-top: -5%;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.contentBody img{
+	height: 100%;
+	width: 100%;
+}
+.img-blurred {
+    -webkit-filter:blur(20px);
+    filter:url(#blur-effect);
+    opacity:.55;
+}
+.imgContainerText{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+	width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+.imgContainerText p{
+	display: block;
+	width: 100%;
+	text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+.imgContainerText p button{
+	color: #fff;
+}
+.imgContainerText p button:hover{
+	color: #111;
+}
