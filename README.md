@@ -5,7 +5,7 @@
 * 顶部高斯模糊导航条
 * 页面主体
 
-在线demo:[https://lucienyang.github.io/blurNav/](https://lucienyang.github.io/blurNav/)
+在线demo:[https://lucienyang.github.io/blur_nav/](https://lucienyang.github.io/blur_nav/)
 
 # 导航条动态高斯模糊实现原理
 > 第一步，将页面主体内容clone到navbar中，然后使用css3 -webkit-filter滤镜对内容做高斯模糊
